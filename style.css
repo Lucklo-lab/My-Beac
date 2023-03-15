@@ -1,0 +1,262 @@
+
+body{
+    
+    font-family: Arial, sans-serif;
+    padding:0;
+    margin: 0;
+    width: 100%;
+}
+h1
+{
+    text-transform: uppercase;
+    text-align: justify;
+}
+ul
+{
+    list-style-type: none;
+}
+header{
+    background-color: white;
+    height: 100px;
+}
+#droit{
+    margin-left: 400px;
+    margin-top: -10px;
+}
+#droit li{
+    float: left;
+    display: block;
+    padding: 18px 18px;
+    margin-top: -50px;
+    
+}
+#droit li a{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(112, 111, 116);
+    transition: color --3s;
+}
+#droit a:hover,
+#droit a:active {
+color: black;
+}
+#check{
+    padding-top: 10px;
+    padding-left: 25px;
+    margin-top: -40px;
+    width: 80px;
+    height: 30px;
+    float: right;
+    margin-right: 150px;
+    border: 2px solid  white;
+    border-radius: 20px;
+    background-color: rgb(31, 153, 106);
+    color: whitesmoke;
+}
+#logo
+{
+    margin-top: 20px;
+    margin-left: 100px;
+    
+}
+/*********section*************************************/
+#presentation
+{
+    margin-top: -70px;
+    background-color: whitesmoke;
+    height:1000px;
+}
+#para1
+{
+float: right;
+overflow: hidden;
+
+}
+
+#b img{
+    width: 750px;
+    
+    position: relative;
+    right: -425px;
+    top: -970px;
+    
+}
+#a img{
+    width: 1050px;
+    height: 850px;
+    position:relative;
+    right: -270px;
+    top:-176px;
+}
+#text{
+    
+    width: 250px;
+    height: 200px;
+    position: relative;
+    top: 200px;
+    left:100px;
+    
+    
+}
+#text p{
+    text-align: justify;
+}
+#requet{
+    border: 2px solid whitesmoke;
+    text-decoration: none;
+    background-color: rgb(31, 153, 106);
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-left: 25px;
+    margin-top: 40px;
+    width: 120px;
+    height: 30px;
+}
+#requet a{
+    text-decoration: none;
+    color: whitesmoke; 
+}
+#para2{
+
+    margin-top: -300px;
+    background-color:rgb(241, 239, 239);
+}
+#step
+{
+    margin-top: -40px;   
+    padding-left: 100px;
+    height: 150px;
+    width: 700px;
+    
+    text-align: justify;
+}
+.container1
+{
+    margin-top: 20px;
+    margin-left: 100px;
+    display: flex;
+    
+}
+.item1 img{
+    height: 70px;
+}
+.item1{
+text-align: justify;
+width: 500px;
+height: auto;
+justify-content: space-between;
+margin-top: 50px;
+margin-bottom: 10px;
+margin-left: 0;
+margin-right: 130px;
+}
+#article
+{
+    background-color: white;
+}
+#article h1{
+    
+    margin-top: 30px;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+.item img{
+    width: 250px;
+    transition: transform  ease-in-out -5s;
+}
+.item img:hover {
+    transform: scale(1.1) rotate(10deg);
+}
+.container
+{
+    margin-top: -20px;
+    margin-left: 100px;
+    display: flex;
+    
+}
+.item{
+    text-align: center;
+    width: 500px;
+    height: auto;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: 40px;
+    }
+/********************************footer************************************************************************************/
+footer{
+    background-color: rgb(21, 21, 36);
+    margin-top: 100px;
+    padding-top: 20px;
+    height: 200px;
+    width: 100%;
+}
+#pied
+{
+    margin-top: 30px;
+    margin-left: 100px;
+}
+#netw
+{
+    margin-left: 50px;
+    margin-top: 50px;
+    color: blue;
+}
+#netw li{
+    
+    float: left;
+    display: block;
+    padding: 12px 8px;
+}
+#netw img {
+    opacity: -5;
+    transition: opacity -3s;
+}
+#other
+{
+    height: 300px;
+    width: 300px;
+    
+    float:left;
+    margin-left: 120px;
+    margin-top: -110px;
+    
+}
+#other li{
+    display:  inline-block;
+    padding: 20px 20px;
+}
+
+#other a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: thistle;
+    
+}
+#right
+{
+    float: right;
+    margin-right: 170px;
+    margin-top: -90px ;
+}
+#req{
+    height: 30px;
+    width: 122px;
+    padding-top: 10px;
+    padding-left: 20px;
+    border-radius: 25px;
+    background-color: rgb(31, 153, 106);
+}
+#req a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+}
+#copyright{
+
+    margin-top: 35px;
+    color: thistle;
+    text-transform: capitalize;
+
+}
